@@ -1,0 +1,853 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "87842974-e27d-11ec-ac66-144f8a06bac0",
+    "deck_config_uuid": "87842975-e27d-11ec-9958-144f8a06bac0",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "87842975-e27d-11ec-9958-144f8a06bac0",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "9358d109b3de9c82093712d0a821ad0f18d84341.jpg",
+        "IMG_20220417_153606_edit_685043782132448.jpg",
+        "IMG_20220422_120348.jpg",
+        "IMG_20220424_153430_edit_82945909283175.jpg",
+        "IMG_20220425_150010_edit_129801315931234.jpg",
+        "IMG_20220501_103939_edit_2356498552244.jpg",
+        "IMG_20220503_222548_edit_11704150803942.jpg",
+        "IMG_20220518_100130_edit_185475717356591.jpg",
+        "b7003af33a87e9509e0d750710385343fbf2b447.jpg",
+        "t0134d7a644e5cae2e2.gif"
+    ],
+    "name": "物理等级考",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "证明原子核可再分",
+                "贝克勒尔 天然放射现象"
+            ],
+            "flags": 0,
+            "guid": "#!=c1",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "证明原子的核式结构",
+                "卢瑟福 a离子散射实验"
+            ],
+            "flags": 0,
+            "guid": "w;bMB",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "秒表读法<img src='IMG_20220417_153606_edit_685043782132448.jpg'/>",
+                "大圈加小圈，小圈一个30秒，大圈一个1秒"
+            ],
+            "flags": 0,
+            "guid": "JKo_8",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "温度相同的气体，比较分子平均速率和总动能",
+                "质量越大，总内能越大；质量越小平均速率越大，0.5mv^2"
+            ],
+            "flags": 0,
+            "guid": "?%%fP",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "p/t，v/t图像斜率怎么着",
+                "找-273和其中的连线"
+            ],
+            "flags": 0,
+            "guid": "%X}TC",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "电磁波最早由谁发现，被谁证实？",
+                "麦克斯韦，赫兹"
+            ],
+            "flags": 0,
+            "guid": "V9A<U",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eV换算为焦耳",
+                "eV=1.6x10^-19"
+            ],
+            "flags": 0,
+            "guid": ")NC%M",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "贝塔衰变产生的电子如何产生",
+                "是中子衰变为质子和电子产生的"
+            ],
+            "flags": 0,
+            "guid": "5f7cJ",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "气体内能变化",
+                "ΔE=W+Q W外界对气体做功，Q气体吸放热情况"
+            ],
+            "flags": 0,
+            "guid": "{xf2S",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "分子直径",
+                "10^-10m2"
+            ],
+            "flags": 0,
+            "guid": "GuiM3",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "毫微纳单位转换",
+                "1米=1*10^3毫米=1*10^6微米=1*10^9纳米； 分别相差1000倍，也就是10的三次方"
+            ],
+            "flags": 0,
+            "guid": "R_~FH",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "金箔厚度",
+                "1*10^-7"
+            ],
+            "flags": 0,
+            "guid": "qiFFH",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='IMG_20220422_120348.jpg'/><br>验电器和锌板带电情况，电子转移情况",
+                "发生光电效应，锌板失去光电子带正电，验电器的电子转移到锌板上，也带正电。"
+            ],
+            "flags": 0,
+            "guid": ";Q|OV",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "牛顿第一定律和牛顿第二定律区别",
+                "牛顿第一定律阐述力与运动关系<br>任何物体在不受外力作用或者合外力等于0N时，其运动状态不发生变化，且一定为静止或者匀速直线运动。<br><br>牛顿第二定律阐述了力与物体加速度的关系。<br>任何物体在受到不为0N的合外力的作用下会产生加速度，且加速度方向与合外力方向相同，大小等于这个合外力与该物体质量之比。"
+            ],
+            "flags": 0,
+            "guid": "}:nqL",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "阴极射线管正负极和电子流向<img src='b7003af33a87e9509e0d750710385343fbf2b447.jpg'/>",
+                "阴极射出电子向右流，电流向左流，左负右正"
+            ],
+            "flags": 0,
+            "guid": "Px!4O",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "谁完成原子核人工转变，发现了？",
+                "卢瑟福，质子"
+            ],
+            "flags": 0,
+            "guid": "5%Bg5",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "谁发现了中子，如何设计？",
+                "<img src='9358d109b3de9c82093712d0a821ad0f18d84341.jpg'/><br>查德威克，用a离子撞Be，射出中子，和石蜡撞击，射出质子"
+            ],
+            "flags": 0,
+            "guid": "d[unR",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "卢瑟福电场偏转法发现了？",
+                "<img src='IMG_20220424_153430_edit_82945909283175.jpg'/><br>天然放射现象的三种射线"
+            ],
+            "flags": 0,
+            "guid": "?c>QT",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "电流由a流向b，电势如何？",
+                "外电路中沿电流方向，电势降低<br>内电路沿电流方向，电势升高"
+            ],
+            "flags": 0,
+            "guid": "*jV.G",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "双星模型要点",
+                "角速度相等，距离等于半径和"
+            ],
+            "flags": 0,
+            "guid": ".oPoI",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "速度最大点考虑方法",
+                "速度方向合外力为零，a为0"
+            ],
+            "flags": 0,
+            "guid": "SjVuA",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "水面倾斜如何类比？<img src='IMG_20220425_150010_edit_129801315931234.jpg'/>",
+                "找小点，微元法"
+            ],
+            "flags": 0,
+            "guid": "p1k,U",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "现在核电站能量来源",
+                "核裂变反应"
+            ],
+            "flags": 0,
+            "guid": "*_uqE",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "原子核衰变是怎么样的，半衰期会改变吗？其中b射线是",
+                "自发的，不会改变。中子变为质子和电子产生。"
+            ],
+            "flags": 0,
+            "guid": "^6wPQ",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "开尔文热力学温标依据",
+                "m一定，体积不变，压强和温度成线性关系。"
+            ],
+            "flags": 0,
+            "guid": "$|-OV",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "带电粒子在电场线运动加速度怎么判断？",
+                "看电场线疏密，密受力大，加速度大"
+            ],
+            "flags": 0,
+            "guid": "#-t=R",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "xx的周期找法",
+                "注重状态相等"
+            ],
+            "flags": 0,
+            "guid": "beo/T",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "磁传感器什么时候调零，将探管换到另一端读数会？",
+                "在对通电螺线管通电前，变负"
+            ],
+            "flags": 0,
+            "guid": "_V#N",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "探管指向被测磁场s极测试值为<br>n极为",
+                "正，负<br>当探管和磁场方向相同则正，不同则负"
+            ],
+            "flags": 0,
+            "guid": "![LnC",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src='IMG_20220501_103939_edit_2356498552244.jpg'/><br>公式适用范围",
+                "匀速！匀速！匀速运动！<br>匀加速需要计算平均速度<br>P=FV进行计算！"
+            ],
+            "flags": 0,
+            "guid": "O-Jp5",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "热力学的最低温度被称为，其物理意义是",
+                "绝对零度，低温的极限"
+            ],
+            "flags": 0,
+            "guid": ":n_=2",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "静电除尘原理<img src='IMG_20220503_222548_edit_11704150803942.jpg'/>",
+                "A为正极接地，B为负极，B处电场强，空气分子更容易在B处电离为正离子和电子，正离子偏向B，电子和灰尘颗粒结合使灰尘带负点，从而吸附到A"
+            ],
+            "flags": 0,
+            "guid": "1(Vy7",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "阴极射线和贝塔射线区别",
+                "阴极射线是因为核外电子受激以后辐射出来的电子流，而β射线是是原子核衰变时，中子转化为质子和电子，产生出来的电子流。 "
+            ],
+            "flags": 0,
+            "guid": "MGTd2",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "光速c",
+                "3*10^8"
+            ],
+            "flags": 0,
+            "guid": "du8;F",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "元电荷e",
+                "1.6*10^-19"
+            ],
+            "flags": 0,
+            "guid": "yNG]2",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "静电常量",
+                "9*10^9"
+            ],
+            "flags": 0,
+            "guid": "P4]PC",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "阿伏加德罗常数",
+                "6.02*10^23"
+            ],
+            "flags": 0,
+            "guid": "Z#}fK",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "麦克斯韦磁场理论",
+                "均匀变化的一种场产生稳定的另一种场。<br>周期性变化的一种场产生周期性变化的另一种场。"
+            ],
+            "flags": 0,
+            "guid": "a$;L8",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "曲线运动",
+                "合外力方向和速度方向不在一条直线"
+            ],
+            "flags": 0,
+            "guid": "h@1n7",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "单摆振幅变化因素",
+                "经过平衡位置速度减小，振幅减小<br>mgh=1/2mv^2，h只和v有关！"
+            ],
+            "flags": 0,
+            "guid": "0uP2D",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "行星三大定律提出者",
+                "开普勒"
+            ],
+            "flags": 0,
+            "guid": ";b34S",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "日心说",
+                "哥白尼/"
+            ],
+            "flags": 0,
+            "guid": "W_(ED",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "测G",
+                "卡文迪许-扭秤实验"
+            ],
+            "flags": 0,
+            "guid": "Co)3H",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "库伦定律",
+                "库伦-扭秤实验"
+            ],
+            "flags": 0,
+            "guid": "S{Q>8",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "电流的磁效应",
+                "奥斯特-小磁针实验"
+            ],
+            "flags": 0,
+            "guid": "Vs(5C",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "电磁感应",
+                "法拉第"
+            ],
+            "flags": 0,
+            "guid": "{#hqR",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "国际单位制基本单位",
+                "<img src='t0134d7a644e5cae2e2.gif'/>"
+            ],
+            "flags": 0,
+            "guid": ".}#YH",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "力合成实验理论力和实际力",
+                "<img src='IMG_20220518_100130_edit_185475717356591.jpg'/><br>理论力符合平行四边形定则<br>实际力和皮筋在同一直线上"
+            ],
+            "flags": 0,
+            "guid": "M!TIN",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "电子距离趋近于0",
+                "库仑定律不适应，万有引力适用"
+            ],
+            "flags": 0,
+            "guid": "wrRO6",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "恒星寿命和质量关系",
+                "质量越大，寿命越短"
+            ],
+            "flags": 0,
+            "guid": "!8!]P",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "恒星发光发热能量来源",
+                "内部核聚变"
+            ],
+            "flags": 0,
+            "guid": "~+,i8",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "光特点（m，v，E）",
+                "有能量，无静止能量，无体积，不是实体离子，E和频率成正比"
+            ],
+            "flags": 0,
+            "guid": "AfMMU",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "太阳辐射能量来源",
+                "内部热核反应"
+            ],
+            "flags": 0,
+            "guid": "|Y9rC",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "半衰期适用范围",
+                "对大量原子核适用，是一种统计规律"
+            ],
+            "flags": 0,
+            "guid": "oeMRG",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "lmAh等于",
+                "3.6c"
+            ],
+            "flags": 0,
+            "guid": "4ek6A",
+            "newlyAdded": false,
+            "note_model_uuid": "87847732-e27d-11ec-94a8-144f8a06bac0",
+            "tags": []
+        }
+    ]
+}
